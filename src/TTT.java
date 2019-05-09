@@ -4,18 +4,18 @@ public class TTT {
 
         int[] row1 = tictactoe[0];
         row1[0] = 1;
-        row1[1] = -1;
-        row1[2] = 1;
+        row1[1] = 0;
+        row1[2] = 0;
 
         int[] row2 = tictactoe[1];
-        row2[0] = -1;
+        row2[0] = 0;
         row2[1] = 1;
-        row2[2] = 1;
+        row2[2] = 0;
 
         int[] row3 = tictactoe[2];
-        row3[0] = -1;
-        row3[1] = 1;
-        row3[2] = -1;
+        row3[0] = 0;
+        row3[1] = 0;
+        row3[2] = 1;
 
         boolean t1 = row1[0]==row1[1];
         boolean t2 = row1[0]==row1[2];
