@@ -14,7 +14,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     private int score = 0;
     private int level = 1;
     private int x = 3;
-    private int y = 8;
+    private int y = 7;
 
     private int totalBricks = 21;
 
